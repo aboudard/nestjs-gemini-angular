@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "NestGemini",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
