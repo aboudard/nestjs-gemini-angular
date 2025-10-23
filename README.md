@@ -6,7 +6,8 @@ A simple backend API built with NestJS that integrates with Google's Gemini AI m
 
 - **Gemini AI Integration**: Direct integration with Google's Gemini 2.5 Pro model
 - **RESTful API**: Clean and well-documented REST endpoints
-- **Swagger Documentation**: Auto-generated API documentation available at `/api`
+- **Scalar API Documentation**: Beautiful, interactive API documentation powered by Scalar UI
+- **OpenAPI/Swagger**: Auto-generated OpenAPI specification with YAML export
 - **Type Safety**: Full TypeScript support for robust development
 - **Testing Suite**: Comprehensive unit and e2e testing setup
 - **CORS Enabled**: Ready for frontend integration
@@ -65,7 +66,21 @@ The API will be available at `http://localhost:3000`
 
 ## 📚 API Documentation
 
-Once the application is running, visit `http://localhost:3000/api` to access the interactive Swagger documentation.
+This project uses **Scalar** for beautiful, interactive API documentation powered by the OpenAPI specification.
+
+### Accessing Documentation
+
+- **Interactive Documentation**: Visit `http://localhost:3000/api` to access the Scalar UI interface
+- **OpenAPI JSON**: Get the raw OpenAPI specification at `http://localhost:3000/api-json`
+- **OpenAPI YAML**: Download the YAML specification at `http://localhost:3000/api-yaml`
+
+### Features
+
+- 🎨 **Beautiful UI**: Clean, modern interface powered by Scalar
+- 📱 **Responsive Design**: Works perfectly on desktop and mobile
+- 🔍 **Interactive Testing**: Test endpoints directly from the documentation
+- 📥 **Export Options**: Download OpenAPI spec in JSON or YAML format
+- 🔗 **Deep Linking**: Share direct links to specific endpoints
 
 ### Available Endpoints
 
